@@ -25,7 +25,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4 pandas lxml
+          pip install understatapi pandas
 
       - name: Run scraper
         run: python scrape_epl.py
