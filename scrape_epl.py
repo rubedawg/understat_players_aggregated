@@ -41,7 +41,7 @@ def main():
     if "npxG" in df.columns:
         df = df.sort_values("npxG", ascending=False)
 
-    df.to_csv(OUTPUT_FILE, index=False)
+    df.to_csv(OUTPUT_FILE, index=False, encoding="utf-8")
     print(f"Wrote {OUTPUT_FILE} ({len(df)} rows × {len(df.columns)} cols)")
 
 
