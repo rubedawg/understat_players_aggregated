@@ -16,7 +16,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # CONFIG — update each August
-SEASON_YEAR = 2026  # 2026 = 2026/27 season
+SEASON_YEAR = 2025  # 2025 = 2025/26 season (temporary — flip to 2026 once season starts)
 
 URL = f"https://understat.com/league/EPL/{SEASON_YEAR}"
 OUTPUT_FILE = f"understat_epl_{SEASON_YEAR}_latest.csv"
